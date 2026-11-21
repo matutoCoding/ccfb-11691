@@ -1,0 +1,20 @@
+{
+  "name": "crashscene-pointcloud",
+  "private": true,
+  "version": "0.1.0",
+  "description": "交通事故现场点云勘查与出图系统 (WebGPU + TypeScript)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.51",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
